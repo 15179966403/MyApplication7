@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="请输入邮箱地址"
+            />
+        <requestFocus />
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="请输入昵称"
+            />
+        <EditText
+            android:id="@+id/editText_pwd"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="密码：6到16个字符"
+            />
+        <Button
+            android:id="@+id/button_register"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="立即注册"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@drawable/drawable_longbutton_selector"
+            />
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_marginTop="30dp"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我同意某某某"
+            />
+    </LinearLayout>
+</LinearLayout>
